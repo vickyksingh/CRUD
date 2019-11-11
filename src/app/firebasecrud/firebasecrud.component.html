@@ -1,0 +1,12 @@
+<p>
+<input class="form-control" (keyup.enter)="PostData(name)" #name>
+</p>
+{{emp | json}}
+
+<ul>
+  <li *ngFor="let x of emp">
+    {{x.name}}
+  </li>
+</ul>
+
+
